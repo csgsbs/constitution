@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[margin=.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = purple,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\usepackage{titlesec}
+\renewcommand{\thesection}{\Roman{section}}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{}{0em}{Article \thesection: }[]
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{}{0em}{Section \arabic{subsection}: }[]
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{}{0em}{\arabic{subsection}.\arabic{subsubsection}: }[]
+
+\title{\textbf{[DRAFT] Constitution of the \\ Computer Science Graduate Guild} \\ University of Toronto}
+\author{Robert Wu (\texttt{rupert@}), Bogdan Pikula (\texttt{pikula@}), David Glukhov (\texttt{dglukhov@})}
+\date{October 2, 2023}
+
+\begin{document}
+
+\maketitle
+\input{body/name}
+\input{body/objectives}
+\input{body/membership}
+\input{body/leadership}
+\input{body/procedure}
+
+\end{document}
