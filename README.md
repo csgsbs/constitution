@@ -1,4 +1,4 @@
-# Constitution of the Computer Science Graduate Guild (CSGG)
+# Constitution of the Computer Science Graduate Society (CSGS)
 
 The [Constitution](https://www.cs.toronto.edu/csgsbs/constitution.pdf) is written in $\LaTeX$. You may edit locally or online with Overleaf, but changes must be tracked in this `git` repository.
 
