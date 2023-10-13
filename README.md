@@ -1,6 +1,6 @@
-# Constitution of the CSGSBS
+# Constitution of the Computer Science Graduate Society (CSGS)
 
-The [Constitution](https://www.cs.toronto.edu/csgsbs/constitution.pdf) is writtein $\LaTeX$. You may edit locally or online with Overleaf, but changes must be tracked in this `git` repository.
+The [Constitution](https://www.cs.toronto.edu/csgsbs/constitution.pdf) is written in $\LaTeX$. You may edit locally or online with Overleaf, but changes must be tracked in this `git` repository.
 
 ## Getting Started
 
@@ -18,6 +18,8 @@ make clean
 
 Make sure [latexindent.pl](https://ctan.org/pkg/latexindent) is set-up correctly. We wouldn't like to track source file formatting changes!
 
-## Past Versions
+## Revisions
 
-- [January 27, 2020](https://www.cs.toronto.edu/csgsbs/archive/constitution-2020-01-27.pdf)
+- See the commit history for past versions.
+- For working drafts, check the feature branches (other than `main`).
+- The [original from January 27, 2020](archive/2020-01-27.pdf).
